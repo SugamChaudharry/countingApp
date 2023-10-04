@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(pexels-pixabay-220182.jpg);
+    background-size: cover; 
+    justify-items: center; 
+}
+.main_div{
+    background: linear-gradient(142deg , #b864e791 , rgba(83, 192, 210, 0.5) );
+    box-shadow: 20px 28px 24px #373232ab;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;;
+
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Sedgwick Ave Display', cursive;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 75%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+p{
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #17191bc4;
+}
+
+#increment-btn {
+    background: linear-gradient(142deg , #329ddbc4 , rgba(57, 177, 224, 0.38) );
+}
+
+#save-btn {
+    background: linear-gradient(142deg , #9345c9 , rgba(203, 57, 224, 0.99) );
+
+}
+#start-btn{
+    background: linear-gradient(142deg , #6b6962 , rgba(117, 101, 119, 0.99) );
+}
